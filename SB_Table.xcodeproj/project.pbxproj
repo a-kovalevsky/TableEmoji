@@ -45,6 +45,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		490DF0AA2853A16E00E0A878 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				49BF496F280DF8A800D5692C /* EmojiTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		490DF0AB2853A1A500E0A878 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				49ED8B4228101C8800AB887E /* ViewController.swift */,
+				49BF496D280DC26500D5692C /* TableViewController.swift */,
+				49BF4973280EEB8900D5692C /* NewTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		490DF0AC2853A1BB00E0A878 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				49BF4971280DFD6700D5692C /* EmojiModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		49BF494D280CADBE00D5692C = {
 			isa = PBXGroup;
 			children = (
@@ -66,11 +92,9 @@
 			children = (
 				49BF4959280CADBE00D5692C /* AppDelegate.swift */,
 				49BF495B280CADBE00D5692C /* SceneDelegate.swift */,
-				49ED8B4228101C8800AB887E /* ViewController.swift */,
-				49BF4971280DFD6700D5692C /* EmojiModel.swift */,
-				49BF496D280DC26500D5692C /* TableViewController.swift */,
-				49BF4973280EEB8900D5692C /* NewTableViewController.swift */,
-				49BF496F280DF8A800D5692C /* EmojiTableViewCell.swift */,
+				490DF0AC2853A1BB00E0A878 /* Model */,
+				490DF0AB2853A1A500E0A878 /* Controllers */,
+				490DF0AA2853A16E00E0A878 /* Cell */,
 				49BF495F280CADBE00D5692C /* Main.storyboard */,
 				49BF4962280CADC000D5692C /* Assets.xcassets */,
 				49BF4964280CADC000D5692C /* LaunchScreen.storyboard */,
